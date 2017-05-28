@@ -1,0 +1,151 @@
+body {
+  font-family: helvetica;
+  width: 90%;
+  margin: 25px auto;
+  line-height: 1.4em;
+  border-top: 3px solid crimson;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 25px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid gray;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.artikelImg {
+  padding-top: 10px;
+}
+p {
+  margin: 10px 0;
+}
+
+h1 {
+      font-size: 2.5em;
+      margin: 50px 0 5px 30px;
+      color: white;
+      font-weight: bold;
+}
+
+h2 {
+  margin: 25px 0;
+  color: crimson;
+  font-weight: bold;
+  font-size: 1.05em;
+  margin-bottom: 0.9em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  font-size: 1.05em;
+  margin-bottom: 0.9em;
+}
+
+h3 {
+  display: inline;
+}
+
+h4{
+  font-weight: bold;
+}
+
+h5 {
+  opacity: 0.6;
+  font-size: 0.9em;
+  margin-top: -1em;
+  font-style: italic;
+}
+
+nav {
+  text-align: center;
+  font-size: 0.8em;
+  background-color: lightgray;
+  padding: 8px;
+  margin-top: -34px;
+  color: crimson;
+}
+
+nav a {
+  display: inline-block;
+  margin: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: white;
+  text-decoration: none;
+  color: gray;
+  border-radius: 5px;
+  padding: 0.5px 4.5px;
+}
+
+.categorieInfo {
+  text-align: center;
+  font-size: 0.8em;
+  background-color: lightgray;
+  padding: 8px;
+  margin-top: -34px;
+  color: crimson;
+}
+
+.categorieOnderaan {
+  text-align: center;
+  font-size: 0.8em;
+  background-color: lightgray;
+  padding: 10px;
+  color: crimson;
+  margin-top: 25px;
+  margin-bottom: -5px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.categorieOnderaan a {
+  color: crimson;
+}
+
+.logo {
+  width: 15%;
+}
+
+header a {
+  text-decoration: none;
+}
+header {
+      background: #0060aa url(http://news.mb.com.ph/wp-content/uploads/2017/03/000_MX63W.jpg) no-repeat top;
+      background-size: cover;
+      padding: 1px;
+      margin: 0 0 35px 0;
+      min-height: 165px;
+}
+
+header p {
+      line-height: 2em;
+      font-size: 1.2em;
+      margin: 0;
+      padding: 0px 30px 15px 30px;
+      color: lightgray;
+}
+
+.bottom {
+  text-align: center;
+  text-decoration: none;
+  border-top: 3px solid crimson;
+  font-size: 0.9em;
+  margin-top: 2.5em;
+}
+
+h6 {
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1em;
+  margin-top: 1em;
+}
