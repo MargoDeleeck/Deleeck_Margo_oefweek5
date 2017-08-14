@@ -7,14 +7,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-section {
-  margin: 25px 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: whitesmoke;
-  border-bottom: 1px solid gray;
-  padding-top: 1px;
-  padding-bottom: 5px;
+header a {
+  text-decoration: none;
+}
+header {
+      background: #0060aa url(http://news.mb.com.ph/wp-content/uploads/2017/03/000_MX63W.jpg) no-repeat top;
+      background-size: cover;
+      padding: 1px;
+      margin: 0 0 35px 0;
+      min-height: 165px;
+}
+
+header p {
+      line-height: 2em;
+      font-size: 1.2em;
+      margin: 0;
+      padding: 0px 30px 15px 30px;
+      color: lightgray;
+}
+
+.logo {
+  width: 15%;
 }
 
 img {
@@ -24,6 +37,7 @@ img {
 .artikelImg {
   padding-top: 10px;
 }
+
 p {
   margin: 10px 0;
 }
@@ -64,6 +78,23 @@ h5 {
   font-size: 0.9em;
   margin-top: -1em;
   font-style: italic;
+}
+
+h6 {
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+section {
+  margin: 25px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid gray;
+  padding-top: 1px;
+  padding-bottom: 5px;
 }
 
 nav {
@@ -108,44 +139,14 @@ nav a {
   margin-right: -20px;
 }
 
-.categorieOnderaan a {
+.categorieOnderaan a, li a {
   color: crimson;
 }
 
-.logo {
-  width: 15%;
-}
-
-header a {
-  text-decoration: none;
-}
-header {
-      background: #0060aa url(http://news.mb.com.ph/wp-content/uploads/2017/03/000_MX63W.jpg) no-repeat top;
-      background-size: cover;
-      padding: 1px;
-      margin: 0 0 35px 0;
-      min-height: 165px;
-}
-
-header p {
-      line-height: 2em;
-      font-size: 1.2em;
-      margin: 0;
-      padding: 0px 30px 15px 30px;
-      color: lightgray;
-}
-
-.bottom {
+footer {
   text-align: center;
   text-decoration: none;
   border-top: 3px solid crimson;
   font-size: 0.9em;
   margin-top: 2.5em;
-}
-
-h6 {
-  font-weight: bold;
-  opacity: 0.8;
-  font-size: 1em;
-  margin-top: 1em;
 }

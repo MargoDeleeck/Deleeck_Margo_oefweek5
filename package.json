@@ -1,7 +1,7 @@
 {
   "name": "A-nieuws",
   "version": "1.0.0",
-  "description": "Nieuws",
+  "description": "Hét nieuws van 't stad.'",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -10,15 +10,12 @@
     "start": "node app.js"
   },
   "keywords": [
-    "web",
+    "Antwerpen",
     "nieuws",
-    "technology",
-    "node",
-    "express"
+    "stad"
   ],
   "author": "Margo Deleeck",
   "license": "ISC",
-
   "homepage": "",
   "dependencies": {
     "ejs": "^2.5.6",
